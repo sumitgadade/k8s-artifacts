@@ -10,7 +10,7 @@ def myapi():
     IST = pytz.timezone('Asia/Kolkata')
     datetime_ist = datetime.now(IST)
     hostname=socket.gethostname()
-    return jsonify(Current_Time=datetime_ist.strftime('%Y:%m:%d %H:%M:%S %Z %z'), IP_Addr=socket.gethostbyname(hostname), Hostname=hostname,City="Pune", Region="Shivajinagar", Country="India")
+    return jsonify(Current_Time=datetime_ist.strftime('%Y:%m:%d %H:%M:%S %Z %z'), IP_Addr=socket.gethostbyname(hostname), Hostname=hostname,City="Pune", Region="Asia", Country="India")
 
 if __name__ == '__main__':
     app.run()
