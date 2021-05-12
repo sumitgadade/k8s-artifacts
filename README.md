@@ -27,7 +27,7 @@ Kubectl
 7. Grab the IP address of the Minikube by executing `kubectl cluster-info` command.
 8. Enter `kubectl get svc` command to get the port of the service.
 9. Open browser and enter `http://minikube-ip:port/pucsd`, replace minikube-ip and port from the output of the 6th and 7th command respectively 
-10. You can use postman also. just hit the url `http://minikube-ip:port/pucsd`, replace minikube-ip and port from the output of the 6th and 7th command respectively 
+10. You can use postman also. just hit the url `http://minikube-ip:port/pucsd`, replace minikube-ip and port from the output of the 7th and 8th command respectively 
 
 ## Built With Stack
 
